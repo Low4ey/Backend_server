@@ -1,7 +1,7 @@
 const express=require("express")
 const mongoose = require('mongoose');
 const app=express();
-const url="mongodb+srv://a2zgamerz:qwerty12345@cluster0.zwrdm.mongodb.net/?retryWrites=true&w=majority"
+const url="mongodb+srv://<id>:<pass>@cluster0.zwrdm.mongodb.net/?retryWrites=true&w=majority"
 
 mongoose.connect(url,{useNewUrlParser:true})
 const con=mongoose.connection
